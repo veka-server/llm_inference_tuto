@@ -7,6 +7,7 @@ sudo apt-get upgrade -y ;
 sudo apt-get install curl wget software-properties-common python3 pip -y ; 
 ```
 ## installer cuda
+issue de la page de telechargement de Nvidia : https://developer.nvidia.com/cuda-downloads
 ```
 wget https://developer.download.nvidia.com/compute/cuda/12.2.2/local_installers/cuda-repo-debian11-12-2-local_12.2.2-535.104.05-1_amd64.deb;
 sudo dpkg -i cuda-repo-debian11-12-2-local_12.2.2-535.104.05-1_amd64.deb;
