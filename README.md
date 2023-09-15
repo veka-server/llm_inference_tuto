@@ -1,3 +1,4 @@
+server llm compatible openai
 
 ## Pre-requis
 ```
@@ -24,3 +25,8 @@ export GGML_CUDA_NO_PINNED=1 && python3 -m llama_cpp.server --model /mnt/c/Users
 export GGML_CUDA_NO_PINNED=1 && python3 -m llama_cpp.server --model "/mnt/g/Ressources AI/models-llm/codellama-13b-instruct.Q3_K_L.gguf" --n_threads=10 --host=0.0.0.0 --port=1234 --use_mlock=false --n_ctx 12000 --n_gpu_layers=43 
 ```
 
+## Swagger
+Then just navigate to http://localhost:8000/docs to start playing around with it using the Swagger UI.
+
+## API 
+http://localhost:1234/v1
