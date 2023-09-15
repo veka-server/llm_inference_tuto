@@ -23,7 +23,7 @@ CMAKE_ARGS="-DLLAMA_CUBLAS=on -DCMAKE_CUDA_COMPILER=/usr/local/cuda-12.2/bin/nvc
 ## start serveur with model
 ```
 export GGML_CUDA_NO_PINNED=1 && python3 -m llama_cpp.server --model /mnt/c/Users/veka/AppData/Roaming/faraday/models/openorca-platypus2-13b.Q3_K_L.gguf --n_threads=10 --host=0.0.0.0 --port=1234 --use_mlock=false --n_ctx 12000 --n_gpu_layers=43 
-export GGML_CUDA_NO_PINNED=1 && python3 -m llama_cpp.server --model "/mnt/g/Ressources AI/models-llm/codellama-13b-instruct.Q3_K_L.gguf" --n_threads=10 --host=0.0.0.0 --port=1234 --use_mlock=false --n_ctx 12000 --n_gpu_layers=43 
+export GGML_CUDA_NO_PINNED=1 && python3 -m llama_cpp.server --model "/mnt/g/Ressources AI/models-llm/codellama-13b-instruct.Q3_K_L.gguf" --host=0.0.0.0 --port=1234 --use_mlock=false --n_ctx 12000 --n_gpu_layers=43 
 ```
 
 ## Swagger
