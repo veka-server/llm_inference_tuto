@@ -4,7 +4,6 @@
 sudo apt-get update ; 
 sudo apt-get upgrade -y ; 
 sudo apt-get install curl wget software-properties-common python3 pip -y ; 
-sudo apt-get update ;
 ```
 ## installer cuda
 ```
